@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": ["plugin:@wordpress/eslint-plugin/recommended", "prettier"],
+  "plugins": ["prettier"],
+  "ignorePatterns": ["node_modules"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
